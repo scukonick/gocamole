@@ -11,7 +11,7 @@ So, for this you need to do next:
 * compile binary: `go build -o gocamole`
 * put this gocamole on some path in the monitoring server
 * put config to the server as well 
-(you can find [config.example.json](config.example.json) in the root of the project
+(you can find [config.example.json](https://github.com/scukonick/gocamole/blob/master/config.example.json) in the root of the project
 * run gocamole with some metric:
 ```
 [root@server ~]# ./gocamole --config /etc/gocamole.json active_processes
@@ -23,4 +23,6 @@ So, for this you need to do next:
 [root@server ~]# ./gocamole --config /etc/gocamole.json accepted_conn
 121745657
 ```
-
+### Zabbix ###
+You can find config for zabbix user parameters here:
+[https://github.com/scukonick/gocamole/blob/master/zabbix_userparameter.conf](https://github.com/scukonick/gocamole/blob/master/zabbix_userparameter.conf)
