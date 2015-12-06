@@ -20,7 +20,7 @@ func main() {
 	args := flag.Args()
 
 	if len(args) != 1 {
-		log.Fatalf("Should be on positional argument (metric)")
+		log.Fatalf("Should be one positional argument (metric)")
 	}
 
 	metric := args[0]
